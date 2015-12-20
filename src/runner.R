@@ -1,9 +1,9 @@
-library(magrittr)
-library(Ramd)
-library(stagerunner)
+require(magrittr)
+require(Ramd)
+require(stagerunner)
 
-options(openproj.root = '~/opendev/diagnose_heart_disease')
-setwd(options('openproj.root')[[1]])
+options(proj.root = '~/odev/diagnose_heart_disease')
+setwd(options('proj.root')[[1]])
 
 en <- new.env()
 sr <- stagerunner$new(en, list())
