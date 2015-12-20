@@ -7,5 +7,5 @@ R code for exploration of the cardiac MRI DICOM image dataset from [Kaggle's sec
 devtools::install_github('robertzk/stagerunner')
 devtools::install_github('robertzk/Ramd')
 install.packages('oro.dicom', repo = 'http://cran.rstudio.com')
-source('runner')
+source('./src/runner')
 ```
